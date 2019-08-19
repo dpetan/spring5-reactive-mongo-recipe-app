@@ -3,8 +3,6 @@ package guru.springframework.services;
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 
-import java.util.Optional;
-
 import guru.springframework.domain.Recipe;
 import guru.springframework.repositories.reactive.RecipeReactiveRepository;
 import org.junit.Before;

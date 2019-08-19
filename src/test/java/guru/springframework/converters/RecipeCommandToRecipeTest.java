@@ -1,5 +1,7 @@
 package guru.springframework.converters;
 
+import static org.junit.Assert.*;
+
 import guru.springframework.commands.CategoryCommand;
 import guru.springframework.commands.IngredientCommand;
 import guru.springframework.commands.NotesCommand;
@@ -8,8 +10,6 @@ import guru.springframework.domain.Difficulty;
 import guru.springframework.domain.Recipe;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class RecipeCommandToRecipeTest {
     public static final String RECIPE_ID = "1";

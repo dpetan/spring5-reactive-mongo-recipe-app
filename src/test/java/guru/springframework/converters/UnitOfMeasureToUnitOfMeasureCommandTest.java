@@ -1,11 +1,11 @@
 package guru.springframework.converters;
 
+import static org.junit.Assert.*;
+
 import guru.springframework.commands.UnitOfMeasureCommand;
 import guru.springframework.domain.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by jt on 6/21/17.

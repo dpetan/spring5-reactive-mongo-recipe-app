@@ -1,6 +1,6 @@
 package guru.springframework.repositories.reactive;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import guru.springframework.domain.UnitOfMeasure;
 import org.junit.Before;

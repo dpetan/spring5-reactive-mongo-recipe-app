@@ -1,11 +1,11 @@
 package guru.springframework.converters;
 
+import static org.junit.Assert.*;
+
 import guru.springframework.commands.NotesCommand;
 import guru.springframework.domain.Notes;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by jt on 6/21/17.

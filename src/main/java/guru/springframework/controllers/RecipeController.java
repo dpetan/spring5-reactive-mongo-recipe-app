@@ -1,5 +1,7 @@
 package guru.springframework.controllers;
 
+import javax.validation.Valid;
+
 import guru.springframework.commands.RecipeCommand;
 import guru.springframework.exceptions.NotFoundException;
 import guru.springframework.services.RecipeService;
@@ -10,8 +12,6 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
-
-import javax.validation.Valid;
 
 /**
  * Created by jt on 6/19/17.

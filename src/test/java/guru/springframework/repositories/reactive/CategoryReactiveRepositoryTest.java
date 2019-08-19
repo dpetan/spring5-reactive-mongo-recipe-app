@@ -1,6 +1,7 @@
 package guru.springframework.repositories.reactive;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import guru.springframework.domain.Category;
 import org.junit.Before;

@@ -1,15 +1,15 @@
 package guru.springframework.converters;
 
+import static org.junit.Assert.*;
+
+import java.math.BigDecimal;
+
 import guru.springframework.commands.IngredientCommand;
 import guru.springframework.commands.UnitOfMeasureCommand;
 import guru.springframework.domain.Ingredient;
 import guru.springframework.domain.Recipe;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.math.BigDecimal;
-
-import static org.junit.Assert.*;
 
 public class IngredientCommandToIngredientTest {
 
